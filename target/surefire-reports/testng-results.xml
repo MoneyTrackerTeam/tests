@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation demo suite" duration-ms="10011" started-at="2018-08-06T18:07:41Z" finished-at="2018-08-06T18:07:51Z">
+  <suite name="Automation demo suite" duration-ms="14869" started-at="2018-10-16T20:25:21Z" finished-at="2018-10-16T20:25:36Z">
     <groups>
     </groups>
-    <test name="Demo test" duration-ms="10011" started-at="2018-08-06T18:07:41Z" finished-at="2018-08-06T18:07:51Z">
+    <test name="Demo test" duration-ms="14869" started-at="2018-10-16T20:25:21Z" finished-at="2018-10-16T20:25:36Z">
       <class name="com.viktorcompany.test.LoginPageTest">
-        <test-method status="PASS" signature="checkLoginWithValidCredentials()[pri:0, instance:com.viktorcompany.test.LoginPageTest@57459491]" name="checkLoginWithValidCredentials" duration-ms="9789" started-at="2018-08-06T21:07:41Z" finished-at="2018-08-06T21:07:51Z">
+        <test-method status="PASS" signature="checkLoginWithValidCredentials()[pri:0, instance:com.viktorcompany.test.LoginPageTest@1bb564e2]" name="checkLoginWithValidCredentials" duration-ms="11287" started-at="2018-10-16T23:25:22Z" description="User can login with valid credentials" finished-at="2018-10-16T23:25:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkLoginWithValidCredentials -->
+        <test-method status="PASS" signature="checkUserNotLoggedInWithInvalidCredentials()[pri:0, instance:com.viktorcompany.test.LoginPageTest@1bb564e2]" name="checkUserNotLoggedInWithInvalidCredentials" duration-ms="3366" started-at="2018-10-16T23:25:33Z" description="User cannot login with invalid credentials" finished-at="2018-10-16T23:25:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkUserNotLoggedInWithInvalidCredentials -->
       </class> <!-- com.viktorcompany.test.LoginPageTest -->
     </test> <!-- Demo test -->
   </suite> <!-- Automation demo suite -->
